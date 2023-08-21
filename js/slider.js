@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:4,
+        itemsDesktop:[1000,4],
+        itemsDesktopSmall:[979,4],
+        itemsTablet:[768,1],
+        navigation:true,
+        pagination:false,
+        autoPlay:false
+    });
+});
+
+$(document).ready(function(){
+    $("#testimonial-slider2").owlCarousel({
+        items:4,
+        itemsDesktop:[1000,4],
+        itemsDesktopSmall:[979,4],
+        itemsTablet:[768,1],
+        navigation:true,
+        pagination:false,
+        autoPlay:false
+    });
+});
